@@ -6,5 +6,5 @@ from flask import Flask, jsonify, request
 class TestApi(Resource):
     def get(self):
         return {
-            "response": "it works!"
+            "response": "it works now! (Updated on Nov 29 - 17:03 BRT)"
         }
