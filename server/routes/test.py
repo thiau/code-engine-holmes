@@ -3,8 +3,8 @@ from flask_restful import Resource, Api
 from flask import Flask, jsonify, request
 
 
-class TestApi(Resource):
+class MainApi(Resource):
     def get(self):
         return {
-            "response": "it works now! (Updated on Nov 30 - 15:47 BRT)"
+            "response": "It works! (Updated on Nov 30 - 17:40 BRT)"
         }
